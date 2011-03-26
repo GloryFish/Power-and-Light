@@ -9,18 +9,17 @@
 require 'vector'
 require 'middleclass'
 require 'colors'
+require 'levels'
 
 Level = class('Level')
 
 function Level:initialize()
   self.dwellingImage = love.graphics.newImage('resources/images/house.png')
+  self:load(1)
 end
 
 function Level:load(num)
-  
-  
-  
-  
+  self.currentLevel = levels[num]
 end
 
 
