@@ -1,0 +1,27 @@
+# Department of Power and Light
+
+## Gameplay
+
+A POWER PLANT sits in the middle of the screen, surrounded by several DWELLINGS.
+
+The dwellings need power.
+
+There is a selection of POWER LINES of various lengths.
+
+A power line can be connected between the power plant and a dwelling if it's length is equal to or greater than the distance between them. 
+
+Sometimes there are POLES. Poles allow two different lines to be connected.
+
+The game consists of a series of levels, each one offering a different configuration of dwellings.
+
+The challenge comes from selecting the correct lines to use to connect the POWER PLANTS, DWELLINGS, and POLES.
+
+## Design
+
+See [simpledesktops.com]() for design direction.
+
+### Art required
+
+- Power plants: coal, nuclear, wind
+- Dwellings: house, apartment
+
